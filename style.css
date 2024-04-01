@@ -4,22 +4,12 @@ form {
     display: flex;
     flex-direction: column;
     margin: 20px 10px 20px 10px;
-    
 }
 
-input {
+
+input, textarea {
     display:flex;
-    justify-content: space-between;
-}
-
-textarea {
-    display: flex;
-    align-items: stretch;
-    height: 200px;
-}
-
-label {
-    justify-items: center;
+    justify-content: center;
 }
 
 button {
@@ -30,6 +20,7 @@ button {
     display: flex;
     flex-direction:column;
     margin: 10px 0px 10px 0px;
+
 }
 
 
@@ -37,7 +28,13 @@ button {
 
 
 @media all and (min-width: 800px) {
+
     textarea {
       height: 100px;
     }
+
+    input, textarea {
+        width: 800px;
+    }
+
   }
