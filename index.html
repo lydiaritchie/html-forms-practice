@@ -12,6 +12,24 @@ href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body> 
-    <script src="script.js"></script>
+    <main>
+        <form>
+            <div class="spacing">
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="name"/>
+            </div>
+            <div class="spacing">
+                <label for="email">Email:</label>
+                <input id="email" type="text" name="email"/>
+            </div>
+            <div class="spacing">
+                <label for="form-message">Your message:</label>
+                <textarea id="form-message" name="message"></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
   </body>
 </html>
